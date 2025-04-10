@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: salud-app
-    env: docker
-    plan: free
-    dockerfilePath: Dockerfile
-    startCommand: streamlit run launcher.py
-
